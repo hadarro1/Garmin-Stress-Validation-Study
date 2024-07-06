@@ -1,0 +1,27 @@
+                      Mixed Linear Model Regression Results
+=================================================================================
+Model:                    MixedLM       Dependent Variable:       reported_stress
+No. Observations:         180           Method:                   REML           
+No. Groups:               60            Scale:                    1.9723         
+Min. group size:          3             Log-Likelihood:           -344.5332      
+Max. group size:          3             Converged:                Yes            
+Mean group size:          3.0                                                    
+---------------------------------------------------------------------------------
+                                       Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+---------------------------------------------------------------------------------
+Intercept                               6.700    3.559  1.882 0.060 -0.277 13.676
+sex[T.M]                               -1.324    0.563 -2.352 0.019 -2.427 -0.220
+condition[T.Recovery]                  -0.164    0.417 -0.394 0.694 -0.982  0.654
+condition[T.Stress]                     3.116    0.417  7.466 0.000  2.298  3.934
+exercise[T.True]                        0.640    0.518  1.235 0.217 -0.376  1.655
+oral_contraceptive[T.True]             -0.694    0.425 -1.634 0.102 -1.527  0.139
+sex[T.M]:condition[T.Recovery]          0.390    0.597  0.653 0.514 -0.780  1.560
+sex[T.M]:condition[T.Stress]            0.167    0.597  0.280 0.780 -1.003  1.337
+exercise[T.True]:condition[T.Recovery]  0.083    0.579  0.143 0.886 -1.052  1.217
+exercise[T.True]:condition[T.Stress]   -0.981    0.579 -1.695 0.090 -2.115  0.154
+age                                    -0.023    0.029 -0.791 0.429 -0.079  0.034
+bmi                                     0.032    0.039  0.836 0.403 -0.043  0.108
+sleep_dur                               0.014    0.131  0.107 0.915 -0.242  0.270
+1 | subject                            -0.011    0.007 -1.447 0.148 -0.025  0.004
+Group Var                               0.788    0.244                           
+=================================================================================
